@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('Dev branch main') {
+            steps {
+                echo 'I am in the dev branch..'
+            }
+        }
+     }
+}
